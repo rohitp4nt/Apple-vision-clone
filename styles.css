@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+    font-family: 'Roboto', sans-serif;;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px ;
+    height: 7vh;
+    width: 50vw;
+    position: absolute; 
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+#page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+#page>nav>h1{
+    font-weight: 400;
+}
+#page>video{
+    height: 100%;
+    width: 70%;
+    object-fit:  cover;
+    position: absolute;
+    left:50% ;
+    transform: translateX(-50%);
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+}
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    
+}
+#page-bottom>h3{
+    color: rgba(255, 255, 255, 0.57);
+    margin-bottom: 1vw ;
+}
+
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+#page3{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+#page3>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#page3-upper{
+   
+    height: 35%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* align-items: center;  */
+    gap: 4rem;
+    overflow: hidden;
+    margin-top: 5rem;
+    margin-left: 35%;
+
+    
+    
+}
+#page3-upper>img{
+    width: 30rem;
+    height: 5rem;
+    margin-top: 2rem;
+    
+    
+}
+
+#page3>img{
+    margin-top: 10%;
+   
+}
+
+#orangeh>#one{
+    color: rgb(255, 89, 0);
+    margin-left: 15%;
+    font-size: 1.4rem;
+    
+}
+#orangeh>#two{
+    color: rgb(255, 89, 0);
+    margin-left: 10%;
+    font-size: 1.4rem;
+    
+}
+
+
+#page3>button{
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+    border: 1px solid #000;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 1.4vw;
+}
+
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page4>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+}
+
+#page5{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#page5>#left{
+    height: 100%;
+    width: 50rem;
+    background-color: white;
+    
+}
+#left>h1{
+    margin-left: 30%;
+    margin-top: 4rem;
+}
+
+
+
+#page5>#right{
+    height: 100%;
+    width: 50rem;
+    color: rgba(0, 0, 0, 0.59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+#right>p{
+    /* margin-left: 30%; */
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    padding-right: 10rem
+}
+#right>button{
+    background-color: rgb(255, 89, 0);
+    height: 3.5rem;
+    width: 20rem;
+    border: 0px;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 31rem;
+    
+}
